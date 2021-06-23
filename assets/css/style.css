@@ -1,5 +1,40 @@
-main{
-background-color: #E8DCCA;
+.foot{
+    height: 50vh;
+    background-color: #FDDCF9;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    align-items: center;
+}
+.instagram{
+    
+    height: 25vh;
+    width: 10vw;
+    
+}
 
+.contenu{
+    height: 40vh;
+    width: 25vw;
+    text-align: center;
+    margin-top: 75px;
+}
 
+.police_amatic{
+font-family: 'Amatic SC', cursive;
+}
+
+.police_mali{
+    font-family: 'Mali', cursive;
+}
+.facebook{
+    height: 25vh;
+    width: 10vw;
+   
+    
+}
+
+a.hypertext{
+    text-decoration: none;
 }
