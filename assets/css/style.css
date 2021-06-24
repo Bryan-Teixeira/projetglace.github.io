@@ -84,3 +84,66 @@ h2 {
 .real {
     justify-content: space-evenly;
 }
+/* Début de code à supprimer */
+main{
+background-color: #E8DCCA;
+}
+/* Fin de code  à supprimer */
+
+/* Ici commence le formululaire de contact (Wesley) */
+
+.contact{
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Mali', cursive;
+}
+
+.formulaire_flex{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.field{
+    width: 50vw;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    background-color:white;
+    
+}
+.formulaire_a{
+      
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-content: space-evenly;
+      margin-bottom: 10px;
+      margin-top: 10px;
+}
+.formulaire_b{
+      
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.formulaire_c{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form_5{
+margin-bottom: 10px;    
+    
+}
+
+.button{
+    border-radius: 30px;
+}
+
+
+/* Ici se termine le formulaire de contact (Wesley) */
