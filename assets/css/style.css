@@ -1,10 +1,10 @@
 body{
-    margin: 0px;
+    margin: 0vh;
 }
 
 header{
     font-family: 'Amatic SC', cursive;
-    font-size: 40px;
+    font-size: 20px;
     background-color: #E8DCCA;
     text-align: center;
 }
@@ -37,16 +37,16 @@ header{
     text-decoration: none;
 }
 
-h1 {
+h1{
     margin: 0;  
 }
 
-h2 {
+h2{
     margin-bottom: 0;
 }
 
 .foot{
-    height: 25vh;
+    height: 300px;
     background-color: #FDDCF9;
     display: flex;
     justify-content: space-evenly;  
@@ -67,6 +67,7 @@ h2 {
 
 .police_amatic{
     font-family: 'Amatic SC', cursive;
+    margin-top: 35px;
 }
 
 .police_mali{
@@ -90,16 +91,14 @@ a.hypertext{
 
 .formulaire_flex{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 .field{
     width: 50vw;
     border-radius: 30px;
     margin-bottom: 10px;
-    background-color:white;
-    
+    background-color:white; 
 }
 
 .formulaire_a{
