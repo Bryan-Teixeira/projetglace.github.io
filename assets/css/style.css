@@ -1,5 +1,86 @@
-main{
-background-color: #E8DCCA;
+body {
+    background-color: #E8DCCA;
+}
 
+.about {
+    border-radius: 30px;
+    border: solid;
+    border-color: black;
+    text-align: center;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
+.aboutAline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.glaces {
+    justify-content: center;
+    align-content: center;
+}
+
+.menuGlaces {
+    border: solid;
+    border-radius: 30%;
+    border-color: black;
+    text-align: center;
+    width: 75%;
+}
+
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+    color: #DB00CC;
+    text-align: center;
+}
+
+.glacesCenter {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.maps {
+    height: 300px;
+    width: 400px;
+}
+
+.localisation {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nanouchka {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mapsMerge {
+    margin-bottom: 0;
+}
+
+.horaires {
+    text-align: center;
+}
+
+.image1,
+.image2,
+.image3 {
+    height: 400px;
+    width: 400px;
+    border-radius: 20%;
+    border: solid;
+}
+
+.real {
+    justify-content: space-evenly;
 }
