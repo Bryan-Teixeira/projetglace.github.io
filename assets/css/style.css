@@ -225,3 +225,8 @@ a.hypertext{
 .button{
     border-radius: 30px;
 }
+
+.size{
+    height: 100px;
+    width: 100px;    
+}
