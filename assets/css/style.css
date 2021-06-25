@@ -126,7 +126,7 @@ h1{
 }
 
 h2{
-    margin-bottom: 0;
+  
 }
 
 .foot{
@@ -164,7 +164,6 @@ a.hypertext{
 }
 
 .contact{
-    text-decoration: underline;
     text-align: center;
     font-family: 'Mali', cursive;
 }
@@ -212,4 +211,10 @@ a.hypertext{
 
 .button{
     border-radius: 30px;
+}
+
+.size{
+    height: 100px;
+    width: 100px;
+    
 }
