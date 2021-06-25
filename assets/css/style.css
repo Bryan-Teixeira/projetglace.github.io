@@ -40,8 +40,9 @@ body{
 
 }
 
-h2 {
-    font-family: 'Shadows Into Light', cursive;
+h2{
+    font-family: 'Chilanka', cursive;
+    font-size: 25px;
     color: #DB00CC;
     text-align: center;
 }
@@ -112,7 +113,7 @@ header{
 }
 
 #menu{
-    font-family: 'Mali';
+    font-family: 'Amatic SC', cursive;
     display: flex; 
     justify-content: center;
     justify-content: space-evenly;   
@@ -179,7 +180,7 @@ a.hypertext{
 .contact{
 
     text-align: center;
-    font-family: 'Mali', cursive;
+    font-family: 'Chilanka', cursive;
 }
 
 .formulaire_flex{
@@ -231,3 +232,4 @@ a.hypertext{
     height: 100px;
     width: 100px;    
 }
+
