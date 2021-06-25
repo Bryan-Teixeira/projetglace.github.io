@@ -1,6 +1,11 @@
+html{
+    scroll-behavior: smooth ;
+}
+
 body{
     margin: 0vh;
     background-color: #E8DCCA;
+  
 }
 
 .about {
