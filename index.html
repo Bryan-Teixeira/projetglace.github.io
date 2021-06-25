@@ -11,21 +11,21 @@
             <!--Mon entete-->
             <div class="entete">
                 <h1>NANOUCHKA</h1>
-                <h2>Le plaisir est là, saisissez le !</h2>
+                <h2 class="sous_titre">Le plaisir est là, saisissez le !</h2>
             </div>
             <!--Barre de menu en dessous l'entete-->
             <div id="fondMenu">
                 <ul id="menu">
-                    <li><a href="#">A PROPOS</a></li>
-                    <li><a href="#">NOS GLACES</a></li>
-                    <li><a href="#">NOUS SITUER</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#about">A PROPOS</a></li>
+                    <li><a href="#icecream">NOS GLACES</a></li>
+                    <li><a href="#location">NOUS SITUER</a></li>
+                    <li><a href="#contactus">CONTACT</a></li>
                 </ul>
             </div>
         </header>
     <body>
                 <div class="aboutAline">
-                    <h2>&Agrave; PROPOS DE NOUS</h2>
+                    <h2 id="about">&Agrave; PROPOS DE NOUS</h2>
                     <div class="about">
                         <p>En 1950, Hermann ETARD, Maître Artisan Glacier, fonde l’entreprise NANOUCHKA en hommage de sa soeur
                             et réalise enfin son vœu. <br> Vendues tout d’abord au moyen de chariots « à l’ancienne », ses
@@ -34,7 +34,15 @@
                             plus grands gourmets !</p>
                     </div>
                 </div>
-            <h2 class="glaces">NOS GLACES</h2>
+                <div class="nosReal">
+                    <h2>NOS REALISATIONS</h2>
+                    <div class="real">
+                        <img class="image1" src="assets/img/glace1.jpg" alt="Des glaces délicieuse">
+                        <img class="image2" src="assets/img/glace2.jpg" alt="Des très bonnes glaces">
+                        <img class="image3" src="assets/img/glace3.jpg" alt="Des milkshakes">
+                    </div>
+                </div>
+            <h2 id="icecream" class="glaces">NOS GLACES</h2>
             <div class="glacesCenter">
                 <div class="menuGlaces">
                         <h3 class="nanouchka">ARTISAN MAITRE GLACIER</h3>
@@ -65,16 +73,9 @@
                     </div>
                 </div>
             </div>
-            <div class="nosReal">
-                <h2>NOS REALISATIONS</h2>
-                <div class="real">
-                    <img class="image1" src="assets/img/glace1.jpg" alt="Des glaces délicieuse">
-                    <img class="image2" src="assets/img/glace2.jpg" alt="Des très bonnes glaces">
-                    <img class="image3" src="assets/img/glace3.jpg" alt="Des milkshakes">
-                </div>
-            </div>
+            
             <div class="localisation">
-                    <h2 class="mapsMerge">NOUS RETROUVER</h2>
+                    <h2 id="location" class="mapsMerge">NOUS SITUER</h2>
                         <p>51 Quai Perée - 80230 Saint-Valery-Sur-Somme</p>
                         <img class="maps" src="assets/img/maps.PNG" alt="Localisation Maps">
                         <div class="horaires">
@@ -83,7 +84,7 @@
                                 <p>Mardi à Vendredi : 8H00 à 23H00</p>
                         </div>
             </div>
-                    <h2 class="contact">Contactez-nous</h2>
+                    <h2 id="contactus" class="contact">Contactez-nous</h2>
             <!-- Ici commence le formululaire de contact (Wesley)-->  
         <form class="formulaire_flex">
             <fieldset class="field">

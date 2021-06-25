@@ -82,6 +82,12 @@ h2 {
     border: solid;
 }
 
+.nosReal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .real {
     justify-content: space-evenly;
 }
@@ -124,7 +130,10 @@ header{
 h1{
     margin: 0;  
 }
-
+.sous_titre{
+font-family: 'Amatic SC', cursive;
+color: black;
+}
 
 .foot{
     background-color: #FDDCF9;
